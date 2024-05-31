@@ -7,6 +7,6 @@ int main() {
          for (int i = y++; i < x; ++i) {
               y = x * i; 
          }
-         printf("El factorial de %d es &d", x, y);
+         printf("El factorial de %d es %d", x, y);
     }
 }
